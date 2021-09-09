@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { getGames } from '../services/videoGamesApi';
-import GameList from '../components/games/GameList';
+import GameList from '../components/app/games/GameList';
 
 export default class VideoGamesContainer extends Component {
 

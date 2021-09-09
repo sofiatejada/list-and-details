@@ -1,6 +1,7 @@
 import React from 'react';
 import VideoGamesContainer from '../../containers/VideoGamesContainer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// eslint-disable-next-line max-len
 import VideoGamesDetailContainer from '../../containers/VideoGamesDetailContainer';
 
 

@@ -9,7 +9,7 @@ const GameList = ({ games }) => (
         <Game 
           id={game.id} 
           name={game.name}
-          rating={game.rating} />
+        />
       </li>
     ))}
   </ul>
@@ -20,7 +20,6 @@ GameList.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      rating: PropTypes.number.isRequired,
     })
   ).isRequired,
 };

@@ -7,15 +7,19 @@ export const getGames = () => {
     headers: {
       'Authorization': `Bearer ${process.env.TOKEN}`,
       'Client-ID': process.env.CLIENT_ID,
+      'Content-Type': 'text/plain',
     },
-    body: 'fields *;',
+    body: 'fields *; limit 9; offset 100;'
   })
-    .then((res) => console.log(res.json()))
+    .then((res) => res.json())
+    // .then((res) => console.log(res.json()))
     .then((json) => json.map((game) => ({
       id: game.id,
       name: game.name,
-      rating: game.rating,
-    })));
+      url: game.url,
+    })
+    // .then(console.log(json))
+    ));
 };
 
 export const getGameById = (id) => {
@@ -24,7 +28,10 @@ export const getGameById = (id) => {
     headers: {
       'Authorization': `Bearer ${process.env.TOKEN}`,
       'Client-ID': process.env.CLIENT_ID,
+      'Content-Type': 'text/plain'
     },
-    body: `fields ${id}`
-  });
+
+    body: `fields *; where id = ${id};`
+  })
+  .then((res) => res.json())
 };

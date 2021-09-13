@@ -1,16 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Game from './Game';
+import { Link } from 'react-router-dom';
 
 const GameList = ({ games }) => (
   <ul aria-label="games">
     {games.map((game) => (
-      <li key={game.id}>
-        <Game 
-          id={game.id} 
-          name={game.name}
-          rating={game.rating} />
-      </li>
+      <Link key={game.id} to={`/${game.id}`}>
+        <li key={game.id}>
+          <Game  
+            name={game.name}
+            url={game.url}
+          />
+        </li>
+      </Link>
     ))}
   </ul>
 );
@@ -20,7 +23,7 @@ GameList.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      rating: PropTypes.number.isRequired,
+      url: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

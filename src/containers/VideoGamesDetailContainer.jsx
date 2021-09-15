@@ -3,26 +3,28 @@ import { getGameById } from '../services/videoGamesApi';
 // import { Link } from 'react-router-dom';
 // import GameList from '../components/app/games/GameList';
 import Game from '../components/app/games/Game';
+import PropTypes from 'prop-types';
 
 export default class VideoGamesDetailContainer extends Component {
 
   state = {
     loading: true,
-    games: [],
+    name: '',
+    url: '',
   }
 
   componentDidMount() {
     const id = this.props.match.params.id;
-    const game = getGameById(id);
-    this.setState({ games: game, loading: false })
-    console.log(game);
-    console.log(game.name);
+    getGameById(id)
+    .then(game => 
+      this.setState({ name: game.name, url: game.url, loading: false }))
+    // console.log(id);
+    // console.log(game);
     // console.log(this.state.games.name);
   }
 
-
   render() {
-    const { loading } = this.state;
+    const { loading, name, url } = this.state;
     console.log(this.state);
 
     if(loading) {
@@ -30,13 +32,16 @@ export default class VideoGamesDetailContainer extends Component {
         <img alt="loading spinner" src="https://i.gifer.com/AzgT.gif" />
       );
     }
-    if(this.state.games.length) {
-      return (
-        <div>
-          <Game id={this.state.games.id} name={this.state.games.name} url={this.state.url} />
-        </div>
-      )
+    return (
+      <div>
+        <Game id={this.props.match.params.id} name={name} url={url} />
+      </div>
+    )
     }
-  }
+}
+
+VideoGamesDetailContainer.propTypes = {
+  match: PropTypes.any,
+  params: PropTypes.any,
 }
 

@@ -1,0 +1,491 @@
+[
+  {
+      "id": 40104,
+      "category": 0,
+      "created_at": 1498435200,
+      "external_games": [
+          20127,
+          1988884
+      ],
+      "first_release_date": 536457600,
+      "genres": [
+          5
+      ],
+      "name": "Dogou Souken",
+      "platforms": [
+          52
+      ],
+      "release_dates": [
+          91007
+      ],
+      "similar_games": [
+          12364,
+          27270,
+          43367,
+          103281,
+          103292,
+          103298,
+          103301,
+          105049,
+          106805
+      ],
+      "slug": "dogou-souken",
+      "summary": "An overhead-view shoot'em up game.",
+      "tags": [
+          268435461
+      ],
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/dogou-souken",
+      "checksum": "5e7446ff-58d9-e744-f0d3-5e10241304c1"
+  },
+  {
+      "id": 24037,
+      "aggregated_rating": 50.0,
+      "aggregated_rating_count": 2,
+      "category": 0,
+      "cover": 78219,
+      "created_at": 1474285784,
+      "external_games": [
+          7703,
+          1978721
+      ],
+      "first_release_date": 1439510400,
+      "game_modes": [
+          1
+      ],
+      "genres": [
+          9,
+          32
+      ],
+      "involved_companies": [
+          39652
+      ],
+      "keywords": [
+          117
+      ],
+      "name": "Three Digits",
+      "platforms": [
+          6
+      ],
+      "rating": 40.0,
+      "rating_count": 1,
+      "release_dates": [
+          57068
+      ],
+      "screenshots": [
+          81338,
+          81339,
+          81340,
+          81341,
+          81342
+      ],
+      "similar_games": [
+          25222,
+          25646,
+          27266,
+          55173,
+          55190,
+          95776,
+          106992,
+          109129,
+          110503,
+          113895
+      ],
+      "slug": "three-digits",
+      "summary": "You are given 14 numbers less than 1000, and all you have to do is to choose two subsets with the same sum. Three Digits is the sequel to our first game Two Digits.",
+      "tags": [
+          268435465,
+          268435488,
+          536871029
+      ],
+      "total_rating": 45.0,
+      "total_rating_count": 3,
+      "updated_at": 1627996286,
+      "url": "https://www.igdb.com/games/three-digits",
+      "websites": [
+          49250,
+          49251
+      ],
+      "checksum": "4fb70e74-d095-290c-8f89-72afb7f16453"
+  },
+  {
+      "id": 41825,
+      "age_ratings": [
+          12957
+      ],
+      "aggregated_rating": 75.0,
+      "aggregated_rating_count": 3,
+      "bundles": [
+          41829
+      ],
+      "category": 1,
+      "collection": 106,
+      "cover": 86236,
+      "created_at": 1498969056,
+      "first_release_date": 1498780800,
+      "follows": 7,
+      "franchises": [
+          596
+      ],
+      "game_modes": [
+          1
+      ],
+      "genres": [
+          12,
+          31
+      ],
+      "involved_companies": [
+          51582
+      ],
+      "keywords": [
+          541
+      ],
+      "name": "The Legend of Zelda: Breath of the Wild - The Master Trials",
+      "parent_game": 7346,
+      "platforms": [
+          130
+      ],
+      "player_perspectives": [
+          2
+      ],
+      "rating": 86.6597832555666,
+      "rating_count": 14,
+      "release_dates": [
+          88315
+      ],
+      "screenshots": [
+          106959,
+          438054,
+          438055,
+          438056,
+          438057,
+          438058,
+          438059,
+          438060,
+          438061
+      ],
+      "similar_games": [
+          55038,
+          55199,
+          75379,
+          81249,
+          96217,
+          101608,
+          103303,
+          105049,
+          106987,
+          115653
+      ],
+      "slug": "the-legend-of-zelda-breath-of-the-wild-the-master-trials",
+      "summary": "DLC pack 1 cannot be purchased outside of the expansion pass. This first DLC pack for The Legend of Zelda: Breath of the wild doesn't include any story additions but does include new side quests, armour, features and a new trial.\nMaster mode is a new game mode which makes all monsters stronger and gives them regenerating health. You'll also encounter powerful new enemies, and even enemies and treasure chests up in the air.\nThe Trial of the Sword is a new challenge where you start with no equipment, and has to fight through 45 rooms of enemies. Your reward: powering up the Master Sword.\nHero's Path allows you to see the path you've travelled. About 200 hours of gameplay can be tracked.\nTravel medallion is a new item which allows you to register your location as a travel gate on the map.\nThe Korok Mask is Found in a chest. If equipped, it will shake to inform you when a Korok is nearby.\nThere are also eight hidden items for you to find. The following items, which pay tribute to The Legend of Zelda series, can now be found scattered across Hyrule: Majora's Mask, Midna's Helmet, Tingle's Hood, Tingle's Shirt, Tingle's Tights, Phantom Helmet, Phantom Armor and Phantom Greaves.",
+      "tags": [
+          1,
+          17,
+          268435468,
+          268435487,
+          536871453
+      ],
+      "themes": [
+          1,
+          17
+      ],
+      "total_rating": 80.8298916277833,
+      "total_rating_count": 17,
+      "updated_at": 1628257633,
+      "url": "https://www.igdb.com/games/the-legend-of-zelda-breath-of-the-wild-the-master-trials",
+      "videos": [
+          14794
+      ],
+      "websites": [
+          50423
+      ],
+      "checksum": "2e8db794-27fe-49b3-6611-9134c0c5e41a"
+  },
+  {
+      "id": 68841,
+      "category": 0,
+      "cover": 97021,
+      "created_at": 1506517027,
+      "external_games": [
+          185421,
+          186839,
+          1905789
+      ],
+      "first_release_date": 1506988800,
+      "game_modes": [
+          2
+      ],
+      "genres": [
+          15,
+          16
+      ],
+      "keywords": [
+          970,
+          3171
+      ],
+      "name": "Captivus",
+      "platforms": [
+          6
+      ],
+      "release_dates": [
+          114619
+      ],
+      "screenshots": [
+          126622,
+          126623,
+          126624,
+          126625,
+          126626
+      ],
+      "similar_games": [
+          8773,
+          11666,
+          13200,
+          13660,
+          17130,
+          24620,
+          32510,
+          34823,
+          36258,
+          102057
+      ],
+      "slug": "captivus",
+      "status": 4,
+      "summary": "Join the movement! Build a deck, equip your ship, and take on others in intense 1v1 card battles!",
+      "tags": [
+          18,
+          268435471,
+          268435472,
+          536871882,
+          536874083
+      ],
+      "themes": [
+          18
+      ],
+      "updated_at": 1627285268,
+      "url": "https://www.igdb.com/games/captivus",
+      "websites": [
+          58090,
+          58091
+      ],
+      "checksum": "cf5139b0-acda-8613-b22a-62e0b0639780"
+  },
+  {
+      "id": 33284,
+      "category": 0,
+      "created_at": 1495670400,
+      "external_games": [
+          5560,
+          1947044
+      ],
+      "first_release_date": 1457740800,
+      "game_modes": [
+          1
+      ],
+      "genres": [
+          32
+      ],
+      "name": "One way to exit",
+      "platforms": [
+          6
+      ],
+      "release_dates": [
+          77755
+      ],
+      "screenshots": [
+          58492,
+          58493,
+          58494,
+          58495,
+          58496
+      ],
+      "similar_games": [
+          32902,
+          37419,
+          40524,
+          43367,
+          105233,
+          111130,
+          113895,
+          119121,
+          119493
+      ],
+      "slug": "one-way-to-exit",
+      "summary": "Move forward or backward in search of an exit, but remember, if you started moving you can not stop, and in any case, do not touch the walls, otherwise you have to start all over again.",
+      "tags": [
+          1,
+          268435488
+      ],
+      "themes": [
+          1
+      ],
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/one-way-to-exit",
+      "checksum": "334d534d-8f5b-3cf8-90b4-240e6daa97fc"
+  },
+  {
+      "id": 104748,
+      "category": 0,
+      "created_at": 1530489600,
+      "external_games": [
+          1155919,
+          1972586
+      ],
+      "name": "Space station - build your own ISS",
+      "slug": "space-station-build-your-own-iss",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/space-station-build-your-own-iss",
+      "checksum": "d49fe10f-a810-bb6a-3946-3c0b83f7fe44"
+  },
+  {
+      "id": 146815,
+      "category": 0,
+      "cover": 139338,
+      "created_at": 1620325446,
+      "external_games": [
+          2010807
+      ],
+      "first_release_date": 1230681600,
+      "game_modes": [
+          1
+      ],
+      "genres": [
+          9
+      ],
+      "involved_companies": [
+          128071,
+          128072
+      ],
+      "name": "Parking Lot Maze",
+      "platforms": [
+          6
+      ],
+      "player_perspectives": [
+          3
+      ],
+      "release_dates": [
+          242971
+      ],
+      "screenshots": [
+          441859,
+          441860,
+          441861
+      ],
+      "similar_games": [
+          10603,
+          19222,
+          41349,
+          86974,
+          87507,
+          88511,
+          89132,
+          90788,
+          95776,
+          109184
+      ],
+      "slug": "parking-lot-maze",
+      "summary": "Parking Lot Maze is a puzzle game where as a parking lot manager, you need to free cars from gridlock before the stress level hits the roof.",
+      "tags": [
+          268435465
+      ],
+      "updated_at": 1620399729,
+      "url": "https://www.igdb.com/games/parking-lot-maze",
+      "checksum": "e1ec46f7-1553-ab37-2cb7-c171595248ff"
+  },
+  {
+      "id": 85450,
+      "category": 0,
+      "created_at": 1517356800,
+      "external_games": [
+          221231,
+          1748471,
+          1991656
+      ],
+      "involved_companies": [
+          85230
+      ],
+      "name": "Transformers Prime: The Game",
+      "slug": "transformers-prime-the-game",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/transformers-prime-the-game",
+      "checksum": "d27c77be-e83a-23fe-6b50-1eb1aa034485"
+  },
+  {
+      "id": 89616,
+      "category": 0,
+      "created_at": 1519948800,
+      "external_games": [
+          269608,
+          1949905
+      ],
+      "name": "Bubble Whirl Shooter",
+      "slug": "bubble-whirl-shooter",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/bubble-whirl-shooter",
+      "checksum": "90910051-5a45-0ef0-6082-40d391b48d79"
+  },
+  {
+      "id": 135938,
+      "category": 0,
+      "cover": 111232,
+      "created_at": 1595440348,
+      "external_games": [
+          1951380
+      ],
+      "first_release_date": 1586390400,
+      "game_engines": [
+          837
+      ],
+      "game_modes": [
+          1
+      ],
+      "genres": [
+          13,
+          32
+      ],
+      "involved_companies": [
+          117091
+      ],
+      "keywords": [
+          1430
+      ],
+      "name": "a sunny day in lockdown",
+      "platforms": [
+          82
+      ],
+      "player_perspectives": [
+          4
+      ],
+      "release_dates": [
+          204829
+      ],
+      "similar_games": [
+          27744,
+          28277,
+          37419,
+          38967,
+          44242,
+          51577,
+          55888,
+          65827,
+          87975
+      ],
+      "slug": "a-sunny-day-in-lockdown",
+      "summary": "a sketch of a spring day in self-isolation",
+      "tags": [
+          32,
+          268435469,
+          268435488,
+          536872342
+      ],
+      "themes": [
+          32
+      ],
+      "updated_at": 1610698290,
+      "url": "https://www.igdb.com/games/a-sunny-day-in-lockdown",
+      "websites": [
+          166334
+      ],
+      "checksum": "432e12c6-b8d1-fa90-236a-3b26d7cd30ad"
+  }
+]

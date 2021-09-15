@@ -20,13 +20,13 @@ export default class VideoGamesContainer extends Component {
       return (
         <img alt="loading spinner" src="https://i.gifer.com/AzgT.gif" />
       );
+    } else {
+      return (
+        <div>
+          <GameList games={games} />
+        </div>
+      );
     }
-
-    return (
-      <div>
-        <GameList games={games} />
-      </div>
-    );
   }
 }
 

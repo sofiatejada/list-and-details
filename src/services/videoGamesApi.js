@@ -30,8 +30,15 @@ export const getGameById = (id) => {
       'Client-ID': process.env.CLIENT_ID,
       'Content-Type': 'text/plain'
     },
-
     body: `fields *; where id = ${id};`
   })
   .then((res) => res.json())
+  .then((json) => {
+    console.log('=========================',json, '===================')
+    return {
+      id: json[0].id,
+      name: json[0].name,
+      url: json[0].url,
+    }
+  })
 };

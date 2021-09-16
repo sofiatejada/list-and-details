@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 
 const Game = ({ id, name, url }) => (
   <>
-    <p>
+
+      <h1>{name}</h1>
       {id},
-      {name},
       {url},
-    </p>
+
   </>
 );
 
 Game.propTypes = {
   name: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default Game;
